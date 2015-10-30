@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R
+END
+plotTimeConsist.R
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/plotTimeConsist.R
+END
+plotRatingFactor.R
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/plotRatingFactor.R
+END
+getCoeffs.R
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/getCoeffs.R
+END
+policyTable.R
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/policyTable.R
+END
+stepIC.R
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/stepIC.R
+END
+forwardBackSig.R
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/forwardBackSig.R
+END
+consistCorrection.R
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/consistCorrection.R
+END
+getVarSignificance.R
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/getVarSignificance.R
+END
+autoPricing-package.R
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/autoPricing-package.R
+END
+modelFamilySpec.R
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/modelFamilySpec.R
+END
+addVariable.R
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MangoRepository/!svn/ver/53725/autoPricing/trunk/R/addVariable.R
+END

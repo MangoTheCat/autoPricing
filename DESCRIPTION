@@ -1,0 +1,31 @@
+Package: autoPricing
+Maintainer: Chibisi Chima-Okereke <cchima-okereke@mango-solutions.com>
+License: GPL-2
+Title: This package is for carrying out automated glm pricing analysis
+    for frequency and severity models
+ZipData: yes
+Type: Package
+LazyLoad: true
+Author: Chibisi Chima-Okereke <cchima-okereke@mango-solutions.com>
+Import: MASS, reshape, fBasics, gridExtra, multcomp
+Description: The purpose of this package is to carry out automated GLM
+    analysis for actuarial pricing. The idea is that it uses the
+    forward or backward algorithms and information criteria to obtain a
+    frequency and severity model. It allows tables to be specified that
+    map the aggregation structure of the variable from those currently
+    specified to a less granular set of categories. This allows those
+    explanatory variables to be dynamically re-specified during the
+    pricing process if the native variable does not improve the fit of
+    the model. The re-specification of the variable categories is done
+    if the native variable does not decrease the information criterion;
+    the mapping table and a Tukey test on the categorical variable is
+    used to aggregate categories that are statistically and logically
+    similar.
+Version: 0.4
+Extends: sp
+URL: http://www.mango-solutions.com
+Depends: MASS, reshape, fBasics, gridExtra, multcomp
+Collate: 'autoPricing-package.R' 'addVariable.R' 'consistCorrection.R'
+    'forwardBackSig.R' 'getCoeffs.R' 'getVarSignificance.R'
+    'modelFamilySpec.R' 'plotRatingFactor.R' 'plotTimeConsist.R'
+    'policyTable.R' 'stepIC.R'
