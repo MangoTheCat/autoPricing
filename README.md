@@ -1,12 +1,25 @@
----------------------------------------------------------------------------------------
-Date: 12/01/2012
-Author: Chibisi Chima-Okereke
-Package: autoPricing
-Version: 0.4
-#
-This is the first iteration of the package
----------------------------------------------------------------------------------------
-```
+# autoPricing
+
+> The purpose of this package is to carry out automated GLM
+    analysis for actuarial pricing. The idea is that it uses the
+    forward or backward algorithms and information criteria to obtain a
+    frequency and severity model. It allows tables to be specified that
+    map the aggregation structure of the variable from those currently
+    specified to a less granular set of categories. This allows those
+    explanatory variables to be dynamically re-specified during the
+    pricing process if the native variable does not improve the fit of
+    the model. The re-specification of the variable categories is done
+    if the native variable does not decrease the information criterion;
+    the mapping table and a Tukey test on the categorical variable is
+    used to aggregate categories that are statistically and logically
+    similar.
+    
+## Installation
+Installation from github requires the devtools package to be installed.
+
+## Usage
+
+```R
 #Loading the data
 data(policyTable)
 
@@ -40,3 +53,6 @@ outputModelForwardFreq <- stepIC(ratingFact = myRatingFactors, countVar = "NoCla
 sink()
 dev.off()
 ```
+
+## Licence
+GPL 2 © [Mango Solutions](https://github.com/mangothecat)
