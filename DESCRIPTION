@@ -22,10 +22,24 @@ Description: The purpose of this package is to carry out automated GLM
     used to aggregate categories that are statistically and logically
     similar.
 Version: 0.4
-Extends: sp
+Extends:
+    sp
 URL: http://www.mango-solutions.com
-Depends: MASS, reshape, fBasics, gridExtra, multcomp
-Collate: 'autoPricing-package.R' 'addVariable.R' 'consistCorrection.R'
-    'forwardBackSig.R' 'getCoeffs.R' 'getVarSignificance.R'
-    'modelFamilySpec.R' 'plotRatingFactor.R' 'plotTimeConsist.R'
-    'policyTable.R' 'stepIC.R'
+Depends:
+    MASS,
+    reshape,
+    fBasics,
+    gridExtra,
+    multcomp
+Collate:
+    'stepIC.R'
+    'plotTimeConsist.R'
+    'plotRatingFactor.R'
+    'modelFamilySpec.R'
+    'getVarSignificance.R'
+    'getCoeffs.R'
+    'forwardBackSig.R'
+    'policyTable.R'
+    'consistCorrection.R'
+    'autoPricing-package.R'
+    'addVariable.R'
